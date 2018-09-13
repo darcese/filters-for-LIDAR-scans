@@ -7,4 +7,5 @@ rangefilterexamples.py and temporalfilterexamples.py demonstrate how to incorpor
 
 filtertests.py is just a program used to test objects created from the lidarfilters module.
 
+The modules use numpy so make sure you have it installed and can access it.
 
