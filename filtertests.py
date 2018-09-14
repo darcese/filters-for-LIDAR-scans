@@ -99,7 +99,7 @@ temporal_filter = filters.TemporalFilter(D)
 # Check to see if a median value within _current_y_list is sensible
 for i in range(30):
     scan = make_long_scan()
-    print("Number at index 999 of current scan is {} ".format(scan[998]))
+    print("Number at index 999 of current scan is {} ".format(scan[999]))
     time.sleep(2)
     temporal_filter.update(scan)
     print("Current median at index 999 of _current_y_list "
