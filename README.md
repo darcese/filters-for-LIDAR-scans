@@ -13,6 +13,7 @@ In order to use the lidarfilters module with Python2
 
 change line 31 from  def __init__(self, range_min: float = .03, range_max: float = 50):
                  to  def __init__(self, range_min = .03, range_max = 50):
+
 and
 
 change line 155 from  def __init__(self, D: int):
