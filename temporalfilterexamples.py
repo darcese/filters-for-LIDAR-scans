@@ -1,8 +1,9 @@
-import lidarfilters as lf
-
 import lidarfilters as filters
 import time
 import numpy as np
+
+# default time delay for examples
+default_delay = 2
 
 
 """Temporal Filter Examples"""
@@ -43,7 +44,7 @@ scans = [
         ]
 
 for i in range(4):
-    time.sleep(2)
+    time.sleep(default_delay)
     print(temporal_filter_object.update(scans[i]))
 
 
@@ -69,7 +70,7 @@ current_y_list = temporal_filter_object._current_y_list
 range_filter = filters.RangeFilter(1.5, 6)
 print("Now an example of how RangeFilter and TemporalFilter objects can be used in tandem:")
 for i in range(4):
-    time.sleep(2)
+    time.sleep(default_delay)
     filtered_scan = range_filter.update(scans[i])
     print(temporal_filter_object.update(filtered_scan))
 

@@ -2,6 +2,8 @@ import lidarfilters as filters
 import numpy as np
 import time
 
+#time delay for Temporal Filter Tests
+default_delay = 2
 
 """Functions to help us test the filter objects"""
 
@@ -100,11 +102,11 @@ temporal_filter = filters.TemporalFilter(D)
 for i in range(30):
     scan = make_long_scan()
     print("Number at index 999 of current scan is {} ".format(scan[999]))
-    time.sleep(2)
+    time.sleep(default_delay)
     temporal_filter.update(scan)
     print("Current median at index 999 of _current_y_list "
           "is {} ".format(temporal_filter._current_y_list[999]))
-    time.sleep(2)
+    time.sleep(default_delay)
 
 
 

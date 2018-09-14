@@ -23,7 +23,7 @@ class RangeFilter:
         Equal to range_max .
 
     Note
-    -------
+    ----------
     If range_min is greater than range_max the two will be swapped.
 
     """
@@ -82,7 +82,7 @@ class RangeFilter:
             The scan to be modified.
 
         Returns
-        -------
+        ----------
         filtered_scan : list
             The modified scan.
         """

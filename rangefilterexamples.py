@@ -25,7 +25,9 @@ range_filtered_list = range_filter_object.update(new_scan)
 print(range_filtered_list)
 
 # We can also filter an np.ndarray
-# numpy_scan = np.array([26,1.9,-1,2,0,6,34,500,.00000002,5, 19.99999,70,10000,51.0000,8, .0300,.0301, .029999,-.1, 27])
+# numpy_scan = np.array([26,1.9,-1,2,0,6,34,500,.00000002,5, 19.99999,
+#                        70,10000,51.0000,8, .0300,.0301, .029999,-.1, 27
+#                        ])
 # print(range_filter_object.update(numpy_scan))
 
 # We can also make a new RangeFilter object with a range_min and range_max specified by the user.
