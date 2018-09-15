@@ -157,7 +157,7 @@ class TemporalFilter:
 
         Parameters
         ----------
-        D : float or int,
+        D : float or int
             Number of scans besides the current one that will be included during median value calculation.
         """
         # Make sure D is a number
