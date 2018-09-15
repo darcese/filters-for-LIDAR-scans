@@ -1,5 +1,4 @@
-"""Temporal Filter Examples
-"""
+"""Temporal Filter Examples"""
 
 import lidarfilters as filters
 import time

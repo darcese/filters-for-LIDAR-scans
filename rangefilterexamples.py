@@ -1,5 +1,4 @@
-"""Range Filter Examples
-"""
+"""Range Filter Examples"""
 
 import lidarfilters as filters
 import numpy as np

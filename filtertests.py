@@ -1,5 +1,4 @@
-"""Tests for LIDAR filters from lidarfilters.py
-"""
+"""Tests for LIDAR filters from lidarfilters.py"""
 
 import lidarfilters as filters
 import numpy as np
