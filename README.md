@@ -27,7 +27,7 @@ from:  def __init__(self, D: int): <br/><br/>&nbsp; &nbsp;
   to:  def __init__(self, D):      <br/><br/>
                                            
 #
-If you run into any issues         <br/><br/>
+If you run into any issues         <br/><br/>&nbsp; &nbsp; 
 feel free to email me at           <br/><br/>
 d.arcese@umiami.edu     
 
