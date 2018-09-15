@@ -180,7 +180,7 @@ class TemporalFilter:
             print("TemporalFilter can't take a number less than 0 as an argument")
             print("Setting D to 0")
             import time
-            time.sleep(5)
+            time.sleep(3.5)
 
 
     def update(self, scan):

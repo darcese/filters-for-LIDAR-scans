@@ -36,6 +36,7 @@ def make_random_length_scan():
 
     return random_length_scan
 
+
 def make_empty_scan():
     empty_scan = []
 
