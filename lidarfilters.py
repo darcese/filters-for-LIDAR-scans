@@ -73,6 +73,7 @@ class RangeFilter:
             import time
             time.sleep(4)
 
+
     def update(self, scan):
         """Updates a scan and returns a modified version
         in which all numbers now lie within a specified range.
@@ -126,12 +127,12 @@ class RangeFilter:
 
 class TemporalFilter:
     """A class used to find a list of median values where each median value
-     is the median of values for a specific index shared between the newest scan
-     and D most recent scans. I.e  median[i] = median(scanT[i], scanT-1[i], ..., scanT-D[i])
-     and list of median values = (median[0], median[1], ..., median[N-1])
-     where N is the length of a scan (number of values in it).
+    is the median of values for a specific index shared between the newest scan
+    and D most recent scans. I.e  median[i] = median(scanT[i], scanT-1[i], ..., scanT-D[i])
+    and list of median values = (median[0], median[1], ..., median[N-1])
+    where N is the length of a scan (number of values in it).
 
-     Each scan must be a one-dimensional array of numbers as a list or np.ndarray .
+    Each scan must be a one-dimensional array of numbers as a list or np.ndarray .
 
     Parameters
     ----------
@@ -170,18 +171,18 @@ class TemporalFilter:
         if isinstance(D, float) is True:
             D = int(np.rint(D))
 
-        # Create the instance's attributes.
-        self._D = D
-        self._recent_scans = []
-        self._current_y_list = []
-
         # Check the value for D.
-        if self._D < 0:
-            self._D = 0
+        if D < 0:
+            D = 0
             print("TemporalFilter can't take a number less than 0 as an argument")
             print("Setting D to 0")
             import time
             time.sleep(3.5)
+
+        # Create the instance's attributes.
+        self._D = D
+        self._recent_scans = []
+        self._current_y_list = []
 
 
     def update(self, scan):
