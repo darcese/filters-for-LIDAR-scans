@@ -98,6 +98,7 @@ range_filter4_dict = {
 
 D = np.random.randint(15) + 0.1234  # The TemporalFilter object will work even if it gets a float as an arg
 print(" D is {}".format(D))
+
 temporal_filter = filters.TemporalFilter(D)
 
 # Check to see if a median value within _current_y_list is sensible
