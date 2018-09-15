@@ -34,9 +34,9 @@ class RangeFilter:
         Parameters
         ----------
         range_min : float or int, optional
-            Numbers in a scan below this will be cropped (default .03).
+            Numbers in a scan less than range_min will be cropped to range_min (default .03).
         range_max : float or int, optional
-            Numbers in a list above this scan will be cropped to range_max (default 50).
+            Numbers in a scan greater than range_max will be cropped to range_max (default 50).
         """
 
         # If a range_min was passed we make sure it's a number.
