@@ -90,11 +90,11 @@ class RangeFilter:
         """
         # Check to see if the scan passed to update is a numpy array .
         # If it is we will convert it to a list.
-        if isinstance(scan,np.ndarray):
+        if isinstance(scan, np.ndarray):
             scan = scan.tolist()
 
         # Check to see if the scan is a list.
-        if isinstance(scan,list) is False:
+        if isinstance(scan, list) is False:
             raise TypeError("TemporalFilter's update method takes a list of numbers as its argument.")
 
         # Check that scan is just a list of numbers. It should not be a list of lists.
@@ -210,11 +210,11 @@ class TemporalFilter:
         """
         # Check to see if the scan passed to update is a numpy array.
         # If it is we will convert it to a list.
-        if isinstance(scan,np.ndarray):
+        if isinstance(scan, np.ndarray):
             scan = scan.tolist()
 
         # Check to see if the scan is a list.
-        if isinstance(scan,list) is False:
+        if isinstance(scan, list) is False:
             raise TypeError("TemporalFilter's update method takes a list of numbers as its argument.")
 
         # If self._recent_scans isn't empty check to see if the length of the current scan
