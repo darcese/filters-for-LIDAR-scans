@@ -55,7 +55,7 @@ print(range_filtered_list)
 # Traceback (most recent call last):
 #   File "rangefilterexamples.py", line 49, in <module>
 #     range_filter_object_with_incorrect_argument_type = filters.RangeFilter([0.32,50])
-#   File "/Users/danielarcese/PycharmProjects/LIDAR_Challenge1/lidarfilters.py", line 45, in __init__
+#   File "/Users/*******************/lidarfilters.py", line 45, in __init__
 #     raise TypeError("range_min must be a float or int")
 # TypeError: range_min must be a float or int
 
@@ -79,7 +79,7 @@ print(range_filtered_list)
 # Traceback (most recent call last):
 #   File "rangefilterexamples.py", line 96, in <module>
 #     range_filter_object.update(3)
-#   File "/Users/danielarcese/PycharmProjects/LIDAR_Challenge1/lidarfilters.py", line 96, in update
+#   File "/Users/*******************/lidarfilters.py", line 96, in update
 #     raise TypeError("TemporalFilter's update method takes a list of numbers as its argument.")
 # TypeError: TemporalFilter's update method takes a list of numbers as its argument.
 

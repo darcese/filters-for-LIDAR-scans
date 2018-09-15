@@ -84,7 +84,7 @@ for i in range(4):
 # Traceback (most recent call last):
 #   File "temporalfilterexamples.py", line 68, in <module>
 #     new_temporal_filter_object = F.TemporalFilter([9])
-#   File "/Users/danielarcese/PycharmProjects/LIDAR_Challenge1/lidarfilters.py", line 166, in __init__
+#   File "/Users/*******************/lidarfilters.py", line 166, in __init__
 #     raise TypeError("TemporalFilter takes a single positive int as an argument")
 # TypeError: TemporalFilter takes a single positive int as an argument
 
@@ -106,7 +106,7 @@ for i in range(4):
 # Traceback (most recent call last):
 #   File "temporalfilterexamples.py", line 92, in <module>
 #     temporal_filter_object.update([1,2,3,4,5,6])
-#   File "/Users/danielarcese/PycharmProjects/LIDAR_Challenge1/lidarfilters.py", line 220, in update
+#   File "/Users/*******************/lidarfilters.py", line 220, in update
 #     raise TypeError('The length of the current scan must be the same as '
 #   TypeError: The length of the current scan must be the same as the length of the previous scan.
 # Make a new TemporalFilter object if you wish to start filtering scans of a new length.
