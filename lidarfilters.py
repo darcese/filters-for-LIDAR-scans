@@ -26,8 +26,7 @@ class RangeFilter:
     Note
     ----------
     If range_min is greater than range_max the two will be swapped.
-
-    """
+    """    
     # Here we set the default range_min and range_max values if they are not passed as arguments.
     def __init__(self, range_min: float = .03, range_max: float = 50):
         """Initializes a RangeFilter object.
@@ -39,7 +38,6 @@ class RangeFilter:
         range_max : float or int, optional
             Numbers in a scan greater than range_max will be cropped to range_max (default 50).
         """
-
         # If a range_min was passed we make sure it's a number.
         if isinstance(range_min, float) is False:
             if isinstance(range_min, int) is False:
