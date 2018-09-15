@@ -57,7 +57,7 @@ range_filter1_dict = {
 # For range_filter1 the update should return a list of numbers
 # where 0.03 <= each number in list <= 50 .
 # Except on make_empty_scan()
-# print(range_filter1_dict[1]) #1 can be replaced with 2 or 3
+# print(range_filter1_dict[1]) # 1 can be replaced with 2 or 3
 
 
 range_filter2_dict = {
@@ -79,7 +79,7 @@ range_filter3_dict = {
 # For range_filter3 the update should return a list of numbers
 # where 2 <= each number in list <= 4 .
 # Except on make_empty_scan() .
-# print(range_filter3_dict[1]) #1 can be replaced with 2 or 3
+# print(range_filter3_dict[1]) # 1 can be replaced with 2 or 3
 
 
 range_filter4_dict = {
