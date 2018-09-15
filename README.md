@@ -3,7 +3,7 @@
 LIDAR scan filters and modules demonstrating usage.
 
 Downloadable from:
-https://github.com/darcese/filters-for-LIDAR-scans.git
+https://github.com/darcese/filters-for-LIDAR-scans.git/archive/master.zip
 
 The modules use numpy so make sure it's installed.
 https://www.numpy.org/
