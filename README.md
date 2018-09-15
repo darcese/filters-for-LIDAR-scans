@@ -19,7 +19,7 @@ https://www.numpy.org/
 # In order to use lidarfilters.py with Python 2:
 
 change line 31      <br/><br/>
-from: def __init__(self, range_min: float = .03, range_max: float = 50):     <br/><br/>
+from: def __init__(self, range_min: float = .03, range_max: float = 50):     <br/><br/>&nbsp; &nbsp; 
   to: def __init__(self, range_min = .03, range_max = 50):      <br/><br/>
 
 change line 155     <br/><br/>
@@ -27,7 +27,7 @@ from:  def __init__(self, D: int): <br/><br/>&nbsp; &nbsp;
   to:  def __init__(self, D):      <br/><br/>
                                            
 #
-If you run into any issues         <br/><br/>&nbsp; &nbsp; 
+If you run into any issues         <br/><br/>
 feel free to email me at           <br/><br/>
 d.arcese@umiami.edu     
 
