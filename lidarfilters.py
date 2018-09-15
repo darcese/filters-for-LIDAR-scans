@@ -1,4 +1,4 @@
-"""Filters for LIDAR scans.
+"""Filters for LIDAR scans
 """
 import numpy as np
 

@@ -1,3 +1,6 @@
+"""Temporal Filter Examples
+"""
+
 import lidarfilters as filters
 import time
 import numpy as np
@@ -5,8 +8,6 @@ import numpy as np
 # default time delay for examples
 default_delay = 2
 
-
-"""Temporal Filter Examples"""
 
 # When creating a new TemporalFilter object, you must pass it a value for D.
 # D represents the number of previous scans (lists), besides the current one, that  your filter

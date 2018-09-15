@@ -1,9 +1,13 @@
+"""Tests for LIDAR filters from lidarfilters.py
+"""
+
 import lidarfilters as filters
 import numpy as np
 import time
 
 #time delay for Temporal Filter Tests
 default_delay = 2
+
 
 """Functions to help us test the filter objects"""
 
