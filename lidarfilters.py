@@ -261,10 +261,10 @@ class TemporalFilter:
         for n in range(len(scan)):
             scan_values_at_current_index = []
 
-            # Go through each scan ie scans[T], scans[T+1] , ..., scans[D]
-            # And pick the nth element in that scan and append it to scan_values_at_current_index
-            for T in range(D + 1):
-                scan_values_at_current_index.append(scans[T][n])
+            # Go through each recent scan ie scans[0], ..., scans[D]
+            # and pick the nth element in that scan and append it to scan_values_at_current_index
+            for t in range(D + 1):
+                scan_values_at_current_index.append(scans[t][n])
 
             # Then take the median of the scan_values_at_current_index
             # and append it to the object's _current_y_list .
