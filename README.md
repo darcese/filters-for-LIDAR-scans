@@ -23,7 +23,7 @@ from: def __init__(self, range_min: float = .03, range_max: float = 50):     <br
   to: def __init__(self, range_min = .03, range_max = 50):      <br/><br/>
 
 change line 155     <br/><br/>
-from:  def __init__(self, D: int): <br/><br/>
+from:  def __init__(self, D: int): <br/><br/>&nbsp; &nbsp; 
   to:  def __init__(self, D):      <br/><br/>
                                            
 #
