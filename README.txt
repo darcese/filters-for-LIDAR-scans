@@ -2,8 +2,7 @@ filters-for-LIDAR-scans
 
 LIDAR scan filters and modules demonstrating usage.
 
-Downloadable from:
-https://github.com/darcese/filters-for-LIDAR-scans.git
+Download link: https://github.com/darcese/filters-for-LIDAR-scans/archive/master.zip
 
 The modules use numpy so make sure it's installed.
 https://www.numpy.org/
@@ -27,7 +26,6 @@ from:  def __init__(self, D: int):
   to:  def __init__(self, D):
 
 ***
-
 
 If you run into any issues
 feel free to email me at
