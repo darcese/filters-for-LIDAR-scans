@@ -1,23 +1,35 @@
 # filters-for-LIDAR-scans
 
-_LIDAR_ scan filters and modules demonstrating usage.
+LIDAR scan filters and modules demonstrating usage.
 
-lidarfilters.py contains the classes used for filtering lidar scans.
+Downloadable from:
+https://github.com/darcese/filters-for-LIDAR-scans.git
 
-rangefilterexamples.py and temporalfilterexamples.py demonstrate how to incorporate the lidarfilters.py module.
+The modules use numpy so make sure it's installed.
+https://www.numpy.org/
 
-filtertests.py is just a program used to test objects created from the lidarfilters module.
+* lidarfilters.py contains the classes used for filtering LIDAR scans.
 
-The modules use numpy so make sure you have it installed and can access it.
+* rangefilterexamples.py and temporalfilterexamples.py demonstrate how
+  to incorporate the lidarfilters.py module.
 
-In order to use the lidarfilters module with Python 2
+* filtertests.py is just a program used to test objects created from the
+  lidarfilters module.
 
-change line 31 from  def __init__(self, range_min: float = .03, range_max: float = 50):
-                 to  def __init__(self, range_min = .03, range_max = 50):
+*** In order to use lidarfilters.py with Python 2:
 
-and change line 155 from  def __init__(self, D: int):
-                  to  def __init__(self, D):
+change line 31
+from: def __init__(self, range_min: float = .03, range_max: float = 50):
+  to: def __init__(self, range_min = .03, range_max = 50):
 
-If you run into any problems
-Email me at
-d.arcese@umiami.edu 
+change line 155
+from:  def __init__(self, D: int):
+  to:  def __init__(self, D):
+
+***
+
+
+If you run into any issues
+feel free to email me at
+d.arcese@umiami.edu
+
