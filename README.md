@@ -16,7 +16,7 @@ https://www.numpy.org/
 * filtertests.py is just a program used to test objects created from the
   lidarfilters module.
 
-*** In order to use lidarfilters.py with Python 2:
+# In order to use lidarfilters.py with Python 2:
 
 change line 31      <br/><br/>
 from: def __init__(self, range_min: float = .03, range_max: float = 50):     <br/><br/>
@@ -24,12 +24,11 @@ from: def __init__(self, range_min: float = .03, range_max: float = 50):     <br
 
 change line 155     <br/><br/>
 from:  def __init__(self, D: int): <br/><br/>
-  to:  def __init__(self, D):    <br/><br/>
+  to:  def __init__(self, D):      <br/><br/>
+                                   <br/><br/>         
 
-***
 
-
-If you run into any issues       <br/><br/>
-feel free to email me at         <br/><br/>
+If you run into any issues         <br/><br/>
+feel free to email me at           <br/><br/>
 d.arcese@umiami.edu     
 
