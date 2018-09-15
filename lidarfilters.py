@@ -150,9 +150,9 @@ class TemporalFilter:
 
     Note
     ----------
-    If a negative value is passed as D then D will become 0
+    If a negative value is passed to D then D will become 0
     and the _current_y_list will be equal to the most recent scan.
-    If a float is passed as D then D will be rounded to the nearest int.
+    If a float is passed to D then D will be rounded to the nearest int.
     """
     def __init__(self, D: int):
         """Initializes a TemporalFilter object.
