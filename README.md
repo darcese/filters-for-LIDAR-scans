@@ -1,11 +1,11 @@
 # filters-for-LIDAR-scans
 
-LIDAR scan filters and modules demonstrating usage.
+LIDAR scan filters and scripts demonstrating usage.
 
 Download link:
 https://github.com/darcese/filters-for-LIDAR-scans/archive/master.zip
 
-The modules use numpy so make sure it's installed.
+The scripts use numpy so make sure it's installed.
 https://www.numpy.org/
 
 * lidarfilters.py contains the classes used for filtering LIDAR scans.
